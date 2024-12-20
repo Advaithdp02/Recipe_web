@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RECIPE WEB</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,16 +13,26 @@
             <h1>Recipe app</h1>
             <form >
                 <input type="text" placeholder="Search for recipe" class="SearchBox">
-                <button type="submit"> Search</button>
+                <button type="submit" class="SearchBtn"> Search</button>
             </form>
         </nav>
     </header>
                 <main>
                     <section>
                         <div class="RecipeContainer">
-                        <h2>Search Your favourite Recipe</h2>
-                    </div></section>
+                            <h2>Search Your favourite Recipe</h2>
+                        </div>
+                        <div class="RecipeDetail">
+                            <button type="button" class="recipeclose">
+                                <i class="fa fa-close"></i>
+                            </button>
+                            <div class="Detailrecipe">
+                                <!-- Recipe details will go here -->
+                            </div>
+                        </div>
+                    </section>
                 </main>
+    <script src="index.js"></script>
             
 </body>
 </html>
